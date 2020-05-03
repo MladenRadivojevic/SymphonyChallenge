@@ -17,15 +17,13 @@ describe("Searh term suite", () => {
 
     it("Should verify popular products", () => {
         cy.get('ul[id="homefeatured"] > li');
-        if(cy.get('ul[id="homefeatured"] > li').length == 7);
-        console.log('Products count pass');
+        cy.get('ul[id="homefeatured"] > li').should('have.length',7);
+       
     });
 
     it("Should verify best products", () => {
-        cy.get('#home-page-tabs > li.active > a.blockbestsellers').click();
-        cy.get('ul[id="homefeatured"] > li');
-        if(cy.get('ul[id="homefeatured"] > li').length == 7);
-        console.log('Products count pass');
-    });
+        cy.get('#home-page-tabs > li:nth-child(2) > a').click();
+        cy.get('ul[id="homefeatured"] > li').should('have.length', 7);
 
+    });
 });
