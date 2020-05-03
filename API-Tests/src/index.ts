@@ -11,7 +11,7 @@ export class ReqresApi {
 export class RegisterDTO { 
   public static email: string;
   public static password: string;
-  constructor(data: any) {
+  constructor(data: object) {
     Object.assign(this,data);
   }
 }
