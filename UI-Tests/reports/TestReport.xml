@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.924" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-03T10:43:57" tests="0" file="cypress\integration\automation-practice\visitPage.spec.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Visit Main Page Suite" timestamp="2020-05-03T10:43:58" tests="1" failures="0" time="6.924">
+    <testcase name="Visit Main Page Suite Should maximize window and visit page Automation Practice" time="6.924" classname="Should maximize window and visit page Automation Practice">
+    </testcase>
+  </testsuite>
+</testsuites>

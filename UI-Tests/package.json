@@ -1,0 +1,18 @@
+{
+  "name": "ui-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:open": "npx cypress open",
+    "test": "npx cypress run --spec 'cypress/integration/automation-practice/*'"
+  },
+  "author": "Mladen Radivojevic",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cypress": "^1.1.3",
+    "cypress": "^4.5.0",
+    "faker": "^4.1.0"
+  }
+}

@@ -1,0 +1,6 @@
+Email used for testing: Hailie92@yahoo.com
+Selected GENDER: MALE 
+Selected GENDER: FEMALE 
+Customer first name used for testing: Brandyn
+Customer last name used for testing: Dickens
+Customer password used for testing: wc0ajejD1v2345V
