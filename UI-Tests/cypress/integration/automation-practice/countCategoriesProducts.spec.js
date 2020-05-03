@@ -1,7 +1,5 @@
 import {HomePage, SignInPage, LoggedInHomePage} from '../../helpers';
 
-import faker from 'faker';
-
 
 describe("Searh term suite", () => {
 

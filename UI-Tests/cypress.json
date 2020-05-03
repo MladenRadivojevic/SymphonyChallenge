@@ -1,7 +1,12 @@
 {
-    "baseUrl": "http://automationpractice.com",
+    "baseUrl": "http://automationpractice.com/",
     "video": false,
     "defaultCommandTimeout": 20000,
+    "reporter": "junit",
+    "reporterOptions": {
+          "mochaFile": "./reports/RegressionTestReport.xml",
+          "toConsole": true
+    },
     "requestTimeout": 20000,
     "chromeWebSecurity": false,
     "followRedirect": false
