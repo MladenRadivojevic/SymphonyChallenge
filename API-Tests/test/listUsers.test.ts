@@ -10,6 +10,7 @@ describe('List Users | Health check', () => {
     );
     expect(get_list_of_users.status).toEqual(200);
     expect(typeof get_list_of_users.data).toBe('object');
+    console.log('List of users fetched successfuly!');
   });
 });
 
@@ -24,5 +25,6 @@ describe('List Users | Response Validation', () => {
     );
     if (!is_response_valid.is_valid) console.log(is_response_valid.errors);
     expect(is_response_valid.is_valid).toBe(true);
+    console.log('List of users response validated successfuly!');
   });
 });
